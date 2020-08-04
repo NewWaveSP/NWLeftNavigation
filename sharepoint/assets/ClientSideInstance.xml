@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="LeftNavigation"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="71c4fe91-9cff-4327-938b-9b54a7e291b1"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

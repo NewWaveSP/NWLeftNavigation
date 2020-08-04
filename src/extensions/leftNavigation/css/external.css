@@ -1,0 +1,7 @@
+.ms-Nav-link[aria-current='page'] {
+    background-color: #546e7a!important;
+}
+
+.ms-Nav-compositeLink:hover a {
+    background-color: #546e7a!important;
+}

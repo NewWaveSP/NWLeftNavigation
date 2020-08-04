@@ -1,0 +1,202 @@
+:global {
+    div[class^='spNav_'],
+    .Files-leftNav,
+    .-leftNav,
+    #spLeftNav {
+        background-color: #2c363f!important;
+        color: #2c363f !important;
+    }
+    div[class^='gradientBox_'] {
+        opacity: -1 !important;
+    }
+    div[class^='ms-HubNav'] {
+        display: none!important;
+    }
+    div[class^='mainHeader'] {
+        display: none !important;
+    }
+    div[class^='headerRow'] {
+        display: none !important;
+    }
+    .ms-Nav-compositeLink {
+        background-color: #2c363f !important;
+        &.is-selected a {
+            background-color: #546e7a !important;
+        }
+        &.is-selected .ms-Nav-chevronButton {
+            background-color: transparent !important;
+        }
+        a:hover {
+            background-color: #546e7a !important;
+        }
+        &.is-selected a {
+            background-color: #546e7a !important;
+            &:hover .ms-Nav-link {
+                background-color: #546e7a !important;
+            }
+            &:hover .ms-Nav-chevronButton {
+                color: #fff !important;
+                background-color: transparent !important;
+            }
+        }
+        .compositeLink_ .compositeLinkIsSelected_ a {
+            background-color: #2c363f !important;
+            &.is-selected .ms-Nav-chevronButton {
+                background-color: transparent !important;
+            }
+            &:hover {
+                background-color: #546e7a !important;
+            }
+        }
+        .ms-Nav-chevronButton {
+            background-color: transparent !important;
+            color: #fff !important;
+        }
+        #spLeftNav {
+            background-color: #2c363f !important;
+        }
+        nav>div>div>ul>li:nth-child(1)>div>a>span>div {
+            color: #e1e000!important;
+            font-size: 14px !important;
+            margin-left: -2px!important;
+        }
+        nav>div>div>ul>li:nth-child(2)>div>a>span>div {
+            overflow: visible!important;
+            margin-left: -2px!important;
+        }
+        nav>div>div>ul>li:nth-child(3)>div>a>span>div {
+            overflow: visible!important;
+            margin-left: -2px!important;
+        }
+        nav>div>div>ul>li:nth-child(4)>div>a>span>div {
+            overflow: visible!important;
+            margin-left: -2px!important;
+        }
+        nav>div>div>ul>li:nth-child(5)>div>a>span>div {
+            overflow: visible!important;
+            margin-left: -2px!important;
+        }
+        nav>div>div>ul>li:nth-child(6)>div>a>span>div {
+            overflow: visible!important;
+            margin-left: -2px!important;
+        }
+        nav>div>div>ul>li:nth-child(7)>div>a>span>div {
+            overflow: visible!important;
+            margin-left: -2px!important;
+        }
+        nav>div>div>ul>li:nth-child(8)>div>a>span>div {
+            overflow: visible!important;
+            margin-left: -2px!important;
+        }
+        nav>div>div>ul>li:nth-child(9)>div>a>span>div {
+            overflow: visible!important;
+            margin-left: -2px!important;
+        }
+        nav>div>div>ul>li:nth-child(10)>div>a>span>div {
+            overflow: visible!important;
+            margin-left: -2px!important;
+        }
+        nav>div>div>ul>li:nth-child(11)>div>a>span>div {
+            overflow: visible!important;
+            margin-left: -2px!important;
+        }
+        nav>div>div>ul>li:nth-child(12)>div>a>span>div {
+            overflow: visible!important;
+            margin-left: -2px!important;
+        }
+        nav>div>div>ul>li:nth-child(13)>div>a>span>div {
+            overflow: visible!important;
+            margin-left: -2px!important;
+        }
+        nav>div>div>ul>li:nth-child(14)>div>a>span>div {
+            overflow: visible!important;
+            margin-left: -2px!important;
+        }
+        nav>div>div>ul>li:nth-child(15)>div>a>span>div {
+            overflow: visible!important;
+            margin-left: -2px!important;
+        }
+        .ms-Nav-linkText {
+            color: #fff !important;
+            font-size: 17px !important;
+        }
+        .item-custom {
+            flex-shrink: 0;
+            display: inherit;
+        }
+        .root-custom {
+            position: relative;
+            font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+            -webkit-font-smoothing: antialiased;
+            font-size: 16px;
+            font-weight: bold;
+            box-sizing: border-box;
+            display: inline-block;
+            text-align: center;
+            cursor: pointer;
+            vertical-align: top;
+            padding-top: 0px;
+            padding-right: 4px;
+            padding-bottom: 0px;
+            padding-left: 4px;
+            min-width: 40px;
+            background-color: #546e7a !important;
+            color: white !important;
+            user-select: none;
+            outline: transparent;
+            border-width: 1px;
+            border-style: solid;
+            border-color: transparent;
+            border-image: initial;
+            text-decoration: none;
+            border-radius: 0px;
+            &:hover {
+                background-color: #546e7a !important;
+                color: white !important;
+            }
+        }
+        .flexContainer-custom {
+            display: flex;
+            height: 100%;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .icon-custom {
+            display: inline-block;
+            -webkit-font-smoothing: antialiased;
+            font-style: normal;
+            font-weight: normal;
+            speak: none;
+            font-family: FabricMDL2Icons;
+            font-size: 16px;
+            margin-top: 0px;
+            margin-right: 4px;
+            margin-bottom: 0px;
+            margin-left: 4px;
+            height: 16px;
+            line-height: 16px;
+            text-align: center;
+            vertical-align: middle;
+            flex-shrink: 0!important;
+            color: rgb(2, 118, 122);
+        }
+        .textContainer-custom {
+            flex-grow: 1!important;
+        }
+        .label-custom {
+            margin-top: 0px;
+            margin-right: 4px;
+            margin-bottom: 0px;
+            margin-left: 4px;
+            line-height: 100%;
+            font-weight: normal;
+            white-space: nowrap;
+        }
+        // Remove banner
+        //.custom-search-container {
+        //    position: absolute;
+        //  right: 25%;
+        //}
+    }
+}
